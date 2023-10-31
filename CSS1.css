@@ -27,6 +27,18 @@ html{
     font-size: 3rem;
     letter-spacing: 1px;
 }
+.heading3{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.heading4{
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.heading5{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
 
 .btn1{
     display: inline-block;
@@ -62,46 +74,45 @@ html{
 }
 @keyframes slider{
     0%{
-        background-image: url("../images/anton-marchuk-66Ghiq6fOL0-unsplash.jpg");
-        /* background-position: center;
-        background-repeat: no-repeat;
-        object-fit: cover; */
+        background-image: url("../images2/pexels-life-of-pix-67468.jpg");
+       
     }
     10%{
-        background-image: url("../images/Caves\ Of\ Maharashtra\ _\ A\ Photographer\'s\ Dream.jpg");
+        background-image: url("../images2/pexels-ksenia-chernaya-4450334.jpg");
         /* background-position: center;
     background-repeat: no-repeat;
     object-fit: cover; */
     }
     20%{
-        background-image: url("../images/sidath-vimukthi-DtirzeIPEk4-unsplash.jpg");
+        background-image: url("../images2/pexels-josh-sorenson-59924.jpg");
         /* background-position: center;
     background-repeat: no-repeat;
     object-fit: cover; */
     }
     30%{
-        background-image: url("../images/eslam-tawakol-8YJ9HTwcVt0-unsplash.jpg");
+        background-image: url("../images2/pexels-fox-1082326.jpg");
         /* background-position: center;
     background-repeat: no-repeat;
     object-fit: cover; */
     }
     40%{
-        background-image: url("../images/sidath-vimukthi-PdLRUCUHleA-unsplash.jpg");
+        background-image: url("../images2/pexels-cátia-matos-984888.jpg");
         /* background-position: center;
     background-repeat: no-repeat;
     object-fit: cover; */
     }
     50%{
-        background-image: url("../images/roberto-nickson-oQJO7TpRZj0-unsplash.jpg");
+        background-image: url("../images2/pexels-cátia-matos-984888.jpg");
+        
     }
     60%{
-        background-image: url("../images/roberto-nickson-oQJO7TpRZj0-unsplash.jpg");
+        background-image: url("../images2/pexels-colon-freld-2373201.jpg");
     }
     70%{
-        background-image: url("../images/sidath-vimukthi-DtirzeIPEk4-unsplash.jpg");
+        background-image: url("../images2/pexels-brett-sayles-1322184.jpg");
     }
     85%{
-        background-image: url("../images/sidath-vimukthi-PdLRUCUHleA-unsplash.jpg");
+        background-image: url("../images2/pexels-asad-photo-maldives-1591361.jpg");
     }
 
     
@@ -139,12 +150,12 @@ a{
 }
 .head1{
     float: left;
-    width: 30%;
+    width: 20%;
     padding: 1.5em;
 }
 .head2{
     float: right;
-    width: 50%;
+    width: 80%;
     text-align: right;
     /* padding: 2em; */
 }
@@ -222,3 +233,178 @@ a{
     text-align: center;
     margin-top: 1.5em;
 }
+
+/* ----------------------- SECTION 2 STYLING (THE HOTEL DISPLAY STYLING) --------------------------------------- */
+
+.section2 .hotel0{
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.section2 .hotel0 .hotelitems{
+    /* border: 2px solid green; */
+    width: 350px;
+    height: 400px;
+    margin: 2em;
+    border-radius: 80px;
+}
+.hotelitems img{
+    height: 60%;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+}
+.hotelitems .hotelcontent{
+    padding: 1em;
+}
+.hotelitems .hotelcontent .rate{
+    font-size: 2rem;
+    color: red;
+
+}
+
+/* ---------------------------------------- NAVBAR 2 STYLING -------------------------- */
+.section2 .section2heading{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.nav2{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 2em 0;
+}
+.nav2 .nav201 .nav2list{
+    list-style: none;
+}
+.nav2listitems a{
+    text-decoration: none;
+}
+.nav2listitems a h2{
+    font-size: 2rem;
+    color: black;
+}
+.nav2listitems{
+    display: inline-block;
+    margin: 0 3em;
+}
+.nav201 .nav2list{
+    display: inline-flex;
+    border-bottom: 1px solid gray;
+}
+.nav2listitems a h2:hover{
+    border-bottom: 3px solid grey;
+    /* padding-bottom: 0.2em; */
+}
+
+.sec1,
+.sec2{
+    position: relative;
+}
+.location{
+    color: white;
+}
+.location{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+/* ----------------------------------- Section3 Styling -------------------------------------- */
+.section3 .customer{
+    /* height: 300px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    
+}
+.section3{
+    padding: 6em 0;
+}
+.section3 .section3heading{
+    text-align: center;
+    margin: 2em 0;
+}
+.customer .customerinfo{
+    width: 32%;
+    /* border: 2px solid green; */
+    height: 100%;
+    padding: 2em;
+    text-align: center;
+    border-bottom: 4px solid blue;
+    box-shadow: 0px 0px 20px 5px rgb(211, 211, 211);
+}
+.customerinfo .hotelname{
+    color: blue;
+}
+.customerinfo p{
+    font-size: 2rem;
+    margin: 2em 0 1em 0;
+    
+}
+/* -------------------------------------- SECTION 4 STYLING -------------------------- */
+.section4 .foot0{
+    /* border: 2px solid red; */
+    
+    display: flex;
+    justify-content: space-around;
+}
+.section4{
+    padding: 6em 0;
+    background-color: rgb(233, 231, 231);
+}
+.foot0items h4{
+    margin-bottom: 1em;
+}
+.section4 .foot0 .foot0items{
+    width: 22%;
+    /* border: 2px solid green; */
+    height: 100%;
+    padding: 2em;
+    text-align: left;
+}
+
+
+/* ------------------------------------ SECTION 5 STYLING ------------------------------------- */
+.section5 .foot1{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-around;
+}
+.section5{
+    padding: 6em 0;
+    background-color: rgb(245, 240, 240);
+}
+.section5 .foot1 .foot1items{
+    width: 24%;
+    /* border: 2px solid yellow; */
+    height: 100%;
+    padding: 2em;
+    text-align: left;
+}
+.foot1items h4{
+    padding-bottom: 1em;
+
+}
+
+/* ------------------------------------ FOOTER STYLING -------------------------------- */
+.footer{
+    position: relative;
+    background-color: black;
+    height: 10vh;
+    text-align: center;
+}
+.footer p{
+    color: white;
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+}
+
